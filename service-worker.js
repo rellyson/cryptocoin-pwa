@@ -13,8 +13,8 @@ const FILES_CACHE = [
     'js/main.js',
     'service-worker.js',
     'manifest.json',
-    'api/criptocurrency-list.json',
-    'api/criptocurrency.json',
+    'api/coins-list.json',
+    'api/coins.json',
 ];
 
 //Install and activate progressive web app
