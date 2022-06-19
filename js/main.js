@@ -194,7 +194,7 @@ function sanitizeCategories(category) {
 
   if (category && category === 'coin') {
     categoryHtml += `<span class="badge bg-coin-outline">${category}</span>`;
-    localStorage[CACHE_NAME] = JSON.stringify(state);
+    localStorage[CACHE_NAME] = JSON.stringify(states);
   } else if (category && category === 'token') {
     categoryHtml += `<span class="badge bg-token-outline">${category}</span>`;
   }
